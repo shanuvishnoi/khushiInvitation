@@ -1,0 +1,6 @@
+{
+  "name": "Pratha & Abhinav — Wedding Celebration",
+  "description": "Official digital wedding invitation for Pratha and Abhinav featuring celebration itinerary, photo gallery, interactive RSVP, and venue map directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
