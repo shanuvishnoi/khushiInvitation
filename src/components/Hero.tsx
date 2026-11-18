@@ -173,7 +173,7 @@ export const Hero: React.FC = () => {
               {/* Decorative inner arch border */}
               <div className="relative w-full h-full rounded-t-[130px] rounded-b-xl overflow-hidden bg-[#FAF7F2]">
                 <img
-                  src="public/roka/ghibli.png"
+                  src="/roka/ghibli.png"
                   alt="Pratha and Abhinav wedding portrait"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
