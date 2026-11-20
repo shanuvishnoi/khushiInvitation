@@ -217,9 +217,7 @@ export const Itinerary: React.FC = () => {
                 <div>
                   <strong className="text-[#2C241E]">Where:</strong> {selectedEventModal.location}
                 </div>
-                <div>
-                  <strong className="text-[#2C241E]">Attire:</strong> {selectedEventModal.dressCode}
-                </div>
+              
                 <div>
                   <strong className="text-[#2C241E]">Key Ritual:</strong> {selectedEventModal.highlight}
                 </div>
