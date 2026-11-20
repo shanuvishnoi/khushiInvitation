@@ -21,7 +21,7 @@ export function getAllEventsGoogleCalendarUrl(): string {
   const details = encodeURIComponent(
     `Celebration Itinerary:\n` +
     `• Dec 8: Haldi (12 PM) & Sangeet Cocktail (3 PM)\n` +
-    `• Dec 10: Hawan & Tilak (10 AM)\n` +
+    `• Dec 10:  Mehandi (10 AM)\n` +
     `• Dec 11: Wedding Celebrations (6 PM)\n\n` +
     `Venue: Mangal Lipi Farm House, Moradabad\n` +
     `Hashtag: #PrathaWedsAbhinav`

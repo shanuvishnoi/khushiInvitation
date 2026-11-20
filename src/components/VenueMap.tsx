@@ -96,7 +96,7 @@ export const VenueMap: React.FC = () => {
                   : 'text-[#6B5A4B] hover:text-[#2C241E]'
               }`}
             >
-              Hawan &amp; Tilak
+             Mehandi
             </button>
             <button
               onClick={() => setActiveTab('transit')}
@@ -198,7 +198,7 @@ export const VenueMap: React.FC = () => {
                 {/* Embedded OpenStreetMap / Google Maps iframe */}
                 <iframe
                   title="Wedding Venue Map"
-                  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6987.708932066377!2d78.74070866681375!3d28.872946520968892!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1795017683378!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.8753228319765!2d78.74487461612622!3d29.18928034276252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a4e9c87aaee11%3A0xe15c684f0d048b4e!2sPanoowala%2C%20Uttar%20Pradesh%20244602!5e1!3m2!1sen!2sin!4v1795086579845!5m2!1sen!2sin"
                    className="w-full h-full border-0"
                   allowFullScreen
                   loading="lazy"
@@ -209,7 +209,7 @@ export const VenueMap: React.FC = () => {
                 <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-lg border border-[#C5A059]/40 text-xs">
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-[#9A7426] animate-pulse" />
-                    <span className="font-semibold text-[#2C241E]"> Home, Harthala</span>
+                    <span className="font-semibold text-[#2C241E]"> Home, Panuwala</span>
                   </div>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export const VenueMap: React.FC = () => {
             <div className="lg:col-span-5 space-y-6 bg-white/90 p-6 sm:p-8 rounded-2xl border border-[#C5A059]/30 shadow-sm">
               <div>
                 <span className="text-xs uppercase tracking-widest text-[#9A7426] font-semibold">
-                  Hawan & Tilak Venue
+                   Mehandi
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-display font-medium text-[#2C241E] mt-1">
                   {WEDDING_DETAILS.venue2.name}
@@ -302,7 +302,7 @@ export const VenueMap: React.FC = () => {
                 {/* Embedded OpenStreetMap / Google Maps iframe */}
                 <iframe
                   title="Wedding Venue Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.478069441122!2d78.63768447627639!3d28.973201368527725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390baadb84770c9b%3A0x2589ccd1a1d11677!2sM%20S%20Farm%20House%20Banquet%20Hall!5e0!3m2!1sen!2sin!4v1795017272020!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.8753228319765!2d78.74487461612622!3d29.18928034276252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a4e9c87aaee11%3A0xe15c684f0d048b4e!2sPanoowala%2C%20Uttar%20Pradesh%20244602!5e1!3m2!1sen!2sin!4v1795086579845!5m2!1sen!2sin"
                    className="w-full h-full border-0"
                   allowFullScreen
                   loading="lazy"
