@@ -122,25 +122,6 @@ export const Itinerary: React.FC = () => {
                     
                   </div>
                  
-                    <div className="flex items-center gap-1.5 text-xs text-[#5A4D41]">
-                      <Shirt className="w-3.5 h-3.5 text-[#9A7426]" />
-                      <span className="font-semibold text-[#3D2C1D]">Attire:</span>
-                      <span>{event.dressCode}</span>
-                    </div>
-                    <div className="flex items-center gap-1.5 ml-auto sm:ml-2">
-                      <span className="text-[11px] text-[#8C7A6B]">Palette:</span>
-                      <div className="flex items-center gap-1">
-                        {event.dressColorPalette.map((color, colorIdx) => (
-                          <span
-                            key={colorIdx}
-                            className="w-3.5 h-3.5 rounded-full border border-black/10 inline-block shadow-2xs"
-                            style={{ backgroundColor: color }}
-                            title={`Recommended shade ${colorIdx + 1}`}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  </div>
 
                   
                 </div>
