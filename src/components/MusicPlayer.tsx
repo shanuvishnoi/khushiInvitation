@@ -66,7 +66,7 @@ export const MusicPlayer = forwardRef<MusicPlayerHandle, MusicPlayerProps>(funct
         <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-2">
           {error && (
             <p role="status" className="max-w-64 rounded-lg bg-[#2C241E] px-3 py-2 text-xs leading-relaxed text-white shadow-lg">
-              Add your song at <strong>public/music/our-song.mp3</strong> to hear it when the diya is lit.
+              
             </p>
           )}
           <div className="flex items-center gap-2 rounded-full border border-[#C5A059]/50 bg-[#FAF7F2]/95 px-3 py-2 shadow-lg backdrop-blur-md">
