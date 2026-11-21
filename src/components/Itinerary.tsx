@@ -9,7 +9,7 @@ export const Itinerary: React.FC = () => {
 
   const filteredEvents = WEDDING_EVENTS.filter((event) => {
     if (activeDayFilter === 'all') return true;
-    if (activeDayFilter === 'day1') return event.date.includes('December 8');
+    if (activeDayFilter === 'day1') return event.date.includes('December 9');
     if (activeDayFilter === 'day2') return event.date.includes('December 10');
     if (activeDayFilter === 'day3') return event.date.includes('December 11');
     return true;
@@ -120,6 +120,27 @@ export const Itinerary: React.FC = () => {
                     </div>
                     <div className="hidden sm:block text-[#C5A059]/40">·</div>
                     
+                  </div>
+                  {/* Dress Code Section with color swatches */}
+                  <div className="pt-3 border-t border-[#C5A059]/20 flex flex-wrap items-center gap-3">
+                    <div className="flex items-center gap-1.5 text-xs text-[#5A4D41]">
+                      <Shirt className="w-3.5 h-3.5 text-[#9A7426]" />
+                      <span className="font-semibold text-[#3D2C1D]">Attire:</span>
+                      <span>{event.dressCode}</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 ml-auto sm:ml-2">
+                      <span className="text-[11px] text-[#8C7A6B]">Palette:</span>
+                      <div className="flex items-center gap-1">
+                        {event.dressColorPalette.map((color, colorIdx) => (
+                          <span
+                            key={colorIdx}
+                            className="w-3.5 h-3.5 rounded-full border border-black/10 inline-block shadow-2xs"
+                            style={{ backgroundColor: color }}
+                            title={`Recommended shade ${colorIdx + 1}`}
+                          />
+                        ))}
+                      </div>
+                    </div>
                   </div>
 
                   
