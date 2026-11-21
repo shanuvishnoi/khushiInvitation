@@ -68,7 +68,7 @@ export const Hero: React.FC = () => {
             </div>
 
             <p className="text-base sm:text-lg text-[#5A4D41] leading-relaxed max-w-xl mx-auto lg:mx-0 font-light">
-              Invite you to grace the joyful auspicious celebration of their wedding. Join us under Moradabad&apos;s starlit skies for three days of melody, sacred rituals, and lifelong memories.
+              Invite you to grace the joyful auspicious celebration of their wedding. Join us under starlit skies for three days of melody, sacred rituals, and lifelong memories.
             </p>
             
 
