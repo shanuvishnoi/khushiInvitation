@@ -50,7 +50,7 @@ export const Itinerary: React.FC = () => {
                   : 'text-[#6B5A4B] hover:text-[#2C241E]'
               }`}
             >
-              Day 1 · Dec 08
+              Day 1 · Dec 09
             </button>
             <button
               onClick={() => setActiveDayFilter('day2')}
